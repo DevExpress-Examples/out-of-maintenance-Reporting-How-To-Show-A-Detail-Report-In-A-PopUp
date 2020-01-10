@@ -1,4 +1,4 @@
-## Web Document Viewer - How to a detail report in a popup ##
+## Web Document Viewer - How to show a detail report in a popup ##
 
 This example illustrates how to show a detail report in the [DevExtreme Popup](https://js.devexpress.com/Documentation/ApiReference/UI_Widgets/dxPopup/) widget.
 To accomplish this task, we need to store a parent key field that should be used to filter a detail report. For this, the **BeforePrint** event of table cells that belong to the table showing data of the main report is handled. In the event handler, the value of the master key field is written to the Tag property of a table cell.
