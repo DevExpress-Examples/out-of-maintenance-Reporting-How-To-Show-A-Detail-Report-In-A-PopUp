@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShowDetailReportInPopup", "Reporting-How-To-Show-A-Detail-Report-In-A-PopUp\ShowDetailReportInPopup.csproj", "{6176C61A-EB77-4249-BA66-A7E376E720A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShowDetailReportInPopup", "Reporting-How-To-Show-A-Detail-Report-In-A-PopUp\ShowDetailReportInPopup.csproj", "{E58F4EE1-D42B-4E1D-A6B2-856445F0E52A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6176C61A-EB77-4249-BA66-A7E376E720A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6176C61A-EB77-4249-BA66-A7E376E720A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6176C61A-EB77-4249-BA66-A7E376E720A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6176C61A-EB77-4249-BA66-A7E376E720A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E58F4EE1-D42B-4E1D-A6B2-856445F0E52A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58F4EE1-D42B-4E1D-A6B2-856445F0E52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58F4EE1-D42B-4E1D-A6B2-856445F0E52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58F4EE1-D42B-4E1D-A6B2-856445F0E52A}.Release|Any CPU.Build.0 = Release|Any CPU
 		EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E0D04FBF-FAF0-49C2-B2C7-6CC08B06441C}
+		SolutionGuid = {4C0C197B-7C46-4000-9ED5-06A37170E1F7}
 	EndGlobalSection
 EndGlobal
