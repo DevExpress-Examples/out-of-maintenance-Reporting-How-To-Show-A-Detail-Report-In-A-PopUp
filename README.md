@@ -1,13 +1,6 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/232990780/2019.2)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T851158)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
-## Web Document Viewer - How to show a detail report in a popup
 
-This example illustrates how to show a detail report in the [DevExtreme Popup](https://js.devexpress.com/Documentation/ApiReference/UI_Widgets/dxPopup/) widget.
-To accomplish this task, we need to store a parent key field that should be used to filter a detail report. For this, the BeforePrint **event of table cells that belong to the table showing data of the main report is handled. In the event handler, the value of the master key field is written to the Tag property of a table cell.
+# Web Document Viewer - How to show a detail report in a popup
 
-It is also necessary to handle the client-side [PreviewClick](https://docs.devexpress.com/XtraReports/DevExpress.AspNetCore.Reporting.WebDocumentViewer.WebDocumentViewerClientSideEventsBuilder.PreviewClick(System.String)) event of the Web Document Viewer. In this event handler, we obtain the master key field value from the Tag property of the clicked table cell and assign this value to the corresponding [report parameter](https://docs.devexpress.com/XtraReports/9997/detailed-guide-to-devexpress-reporting/shape-report-data/use-report-parameters/parameters-overview) in a detail report. The parameter is used to filter a detail report.
+We continue to enhance DevExpress-related learning materials/examples on GitHub. Unfortunately, this example lacked user interest and its code base is now obsolete.
 
-Finally, a popup with the Web Document Viewer which contains a filtered detail report is shown.
+If the use-case outlined in this example is of importance to you (or if you require additional guidance), please submit a support ticket via the [DevExpress Support Center](https://supportcenter.devexpress.com/ticket/create?followUpTo=T851158). We will be happy to follow-up.
